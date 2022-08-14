@@ -3,7 +3,7 @@
     /* to make it responsive so that hand will move wrt it */
     height: 40vw;
     width: 40vw;
-    background-image: url(clock.png) ;
+    background-image: url(clock3.png) ;
     background-size: 100%;
     /* By doing size=100% the clock has fitted into the specified area */
     /* border: 2px solid red; */
@@ -24,8 +24,6 @@
     left:47.85%;
     height: 15%;
     width: 3%;
-    
-    
 }
 
 #minutes{
