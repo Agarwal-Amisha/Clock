@@ -1,31 +1,25 @@
 #clockcontainer{
     position: relative;
-    /*jisse ki hum use responsive bna ske ab hands iske rsp m move krenge  */
+    /* to make it responsive so that hand will move wrt it */
     height: 40vw;
     width: 40vw;
-    background-image: url(clock3.png) ;
+    background-image: url(clock.png) ;
     background-size: 100%;
-    /* size 100% krne ki wjh se wo specified area m fit ho gyi warna aadhi aati */
+    /* By doing size=100% the clock has fitted into the specified area */
     /* border: 2px solid red; */
     margin: auto;
 }
 
 #hour,#minutes,#seconds{
     position: absolute; 
-    /* jisse ki hum use top left se shift kr ske center ki trf */
+    /* so that we can shift the hands from left and top */
     background-color: black;
     border-radius: 10px;
     transform-origin: bottom;
-    /* isse jo clock k hands hai wo bottom se rotate krenge warna wo center se krte rotate with rspt to hands now it will roate frm center wrt clock i.e from bottom of */
+    /* so that the hands of the clock may rotate from bottom else they will rotate from center */
 }
 
 #hour{
-    /* top: 22%;
-    left: 48.5%;
-    height: 28%;
-    width: 3%;
-    display: none;
-     opacity: 0.5; */
     top:40%;
     left:47.85%;
     height: 15%;
@@ -35,12 +29,6 @@
 }
 
 #minutes{
-    /* top: 16.5%;
-    left: 48.5%;
-    height: 33%;
-    width: 3%; */
-    /* opacity: 0.5; */
-    /* display: none; */
     top:33.5%;
     left:48.3%;
     height: 21%;
@@ -48,14 +36,7 @@
 }
 
 #seconds{
-    /* top: 8.75%;
-    left: 48.5%;
-    height: 41%;
-    width: 3%; */
-    /* opacity: 0.5; */
-    /* display: none; */
     top: 25.75%;
-
     height: 28%;
     width: 1%;
     left: 48.85%;
